@@ -217,14 +217,19 @@ Create an Account now to get excited about going out in 2021 again!!</string>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ZC-KI-aIy">
-                                <rect key="frame" x="20" y="759" width="374" height="30"/>
-                                <state key="normal" title="Save Changes"/>
+                                <rect key="frame" x="20" y="748" width="374" height="41"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="22"/>
+                                <state key="normal" title="Save Changes">
+                                    <color key="titleColor" systemColor="linkColor"/>
+                                    <color key="titleShadowColor" systemColor="linkColor"/>
+                                </state>
                                 <connections>
                                     <action selector="saveChanges:" destination="qhX-9c-Ddh" eventType="touchUpInside" id="TtR-FZ-O8a"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Your list of favorited movies will appear here once you have favorited them." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cxI-6s-mdw">
-                                <rect key="frame" x="20" y="367" width="374" height="339"/>
+                                <rect key="frame" x="20" y="367" width="374" height="328"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-MediumItalic" family="Futura" pointSize="20"/>
@@ -408,6 +413,9 @@ Create an Account now to get excited about going out in 2021 again!!</string>
         <namedColor name="AccentColor">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
